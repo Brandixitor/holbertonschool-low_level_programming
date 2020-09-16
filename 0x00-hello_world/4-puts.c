@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
 *This function prints a message and returns the value 0
-*I love Betty
+*main - prints a message
 *C_is_fun
 */
 int main(void)
