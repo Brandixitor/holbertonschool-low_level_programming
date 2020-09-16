@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 /*
  *This function does x and y 
  *I love Betty
@@ -6,6 +6,6 @@
 */
 int main(void)
 {
-puts ("\"Programming is like building a multilingual puzzle");
-return (0);
+          puts("\"Programming is like building a multilingual puzzle");
+          return (0);
 }
