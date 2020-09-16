@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
- *This function does x and y 
+/**
+ *This function prints a message and returns the value 0
  *I love Betty
  *C_is_fun
 */
