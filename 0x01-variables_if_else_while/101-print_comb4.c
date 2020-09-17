@@ -9,7 +9,7 @@ int x, e, z;
 
 for (x = '0'; x <= '9'; ++x)
 {
-for (e = x; j <=  '9'; ++e)
+for (e = x; e <=  '9'; ++e)
 {
 for (z = e; z <=  '9'; ++z)
 {
