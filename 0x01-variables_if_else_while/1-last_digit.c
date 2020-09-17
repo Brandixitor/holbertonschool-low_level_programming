@@ -5,7 +5,7 @@
 /**
 *main - maine function
 *
-*return - success on (0)
+*Return: 0
 */
 int main(void)
 {
