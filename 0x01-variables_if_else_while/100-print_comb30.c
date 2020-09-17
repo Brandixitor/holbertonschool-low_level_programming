@@ -1,27 +1,29 @@
 #include <stdio.h>
 /**
-*main - main function
-*
+*main - maine function
 *Return: 0
 */
 int main(void)
 {
-int x;
-int e;
+int x, e;
 
 for (x = '0'; x <= '9'; ++x)
+}
+for (e = x; e <=  '9'; ++e)
 {
-for (e = '0'; e <= '9'; ++e)
+if (x != e)
 {
-if (x != '0' || e != '0')
+if (x != '0' || e != '1')
 {
 putchar(',');
 putchar(' ');
 }
-putchar(x);
-putchar(e);
+putchar(i);
+putchar(j);
 }
 }
+}
+
 putchar('\n');
 return (0);
 }
