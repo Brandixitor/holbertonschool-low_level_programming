@@ -18,8 +18,8 @@ if (x != '0' || e != '1')
 putchar(',');
 putchar(' ');
 }
-putchar(i);
-putchar(j);
+putchar(x);
+putchar(e);
 }
 }
 }
