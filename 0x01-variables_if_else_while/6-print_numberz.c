@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 /**
 *main - maine function
@@ -12,4 +13,5 @@ int main(void)
 		putchar(i);
 	}
 	putchar('\n');
-
+	return (0);
+}
