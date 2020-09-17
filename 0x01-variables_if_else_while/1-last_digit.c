@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- *main - main function
- *
- *return - success on (0)
- */
+*main - maine function
+*
+*return - success on (0)
+*/
 int main(void)
 {
 int n;
