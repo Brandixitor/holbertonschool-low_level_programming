@@ -1,12 +1,16 @@
 #include <stdio.h>
 /**
-*main - main function
-*
+*main - maine function
 *Return: 0
 */
 int main(void)
 {
-long int n  = 0123456789
-printf(n);
-return (0);
+	unsigned int i;
+
+	for (i = 0; i <= 9; ++i)
+	{
+		printf("%i", i);
+	}
+	putchar('\n');
+	return (0);
 }
