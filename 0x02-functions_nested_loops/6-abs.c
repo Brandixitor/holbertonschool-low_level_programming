@@ -1,4 +1,4 @@
-#include "holberton.c"
+#include "holberton.h"
 /**
 *_abs - 0
 *@n: integer
@@ -6,9 +6,10 @@
 */
 int _abs(int n);
 {
-for (n > 0)
+if (n >= 0)
 {
 return (n);
 }
 return (n * (-1));
 }
+
