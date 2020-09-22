@@ -77,5 +77,5 @@ a = a1;
 a1 = a2;
 i++;
 }
-return (0);
+return (1);
 }
