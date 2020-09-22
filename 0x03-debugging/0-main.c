@@ -4,7 +4,7 @@
 *
 * Return: not this time
 */
-int main(void)
+void main(void)
 {
 positive_or_negative(0);
 return;
