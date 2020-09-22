@@ -1,4 +1,4 @@
-#include "holberton.c"
+#include "holberton.h"
 /**
 *jack_bauer - time
 *
