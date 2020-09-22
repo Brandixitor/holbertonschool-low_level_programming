@@ -2,8 +2,8 @@
 /**
 *add - I hate maths :(
 *Freaking maths...
-*@a - integer
-*@b - integer
+*@a: integer
+*@b: integer
 *Return: a+b? :)
 */
 int add(int a, int b)
