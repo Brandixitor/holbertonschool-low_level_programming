@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
-*main - check the code for Holberton School students.
+*print_alphabet - 0
 *
-*Return: Alwyas 0.
+*Return: nothing.
 */
 void print_alphabet(void)
 {
