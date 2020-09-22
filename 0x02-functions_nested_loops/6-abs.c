@@ -6,7 +6,7 @@
 */
 int _abs(int n);
 {
-for (n >0)
+for (n > 0)
 {
 return (n);
 }
