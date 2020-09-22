@@ -4,11 +4,10 @@
 *@n: integer
 *Return: last digit
 */
-int print_last_digit(int n);
+int print_last_digit(int n)
 {
 int i;
-
-if (n > 0)
+if (n < 0)
 {
 i = (n % 10) * (-1);
 _putchar(i + '0');
