@@ -1,10 +1,9 @@
-#include "holberton.c"
+#include "holberton.h"
 /**
-*add - I hate maths :(
-*Freaking maths...
+*add - main function
 *@a: integer
 *@b: integer
-*Return: a+b? :)
+*Return: nothing
 */
 int add(int a, int b)
 {
