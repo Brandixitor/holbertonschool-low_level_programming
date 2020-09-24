@@ -8,8 +8,9 @@ void print_numbers(void)
 {
 int n;
 
-for ((n => '0') && (n <= '9'))
+for (i = 0; i <= 9; ++i)
 {
 _putchar("%i", n);
 }
+_putchar('\n');
 }
