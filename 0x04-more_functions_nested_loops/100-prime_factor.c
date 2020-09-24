@@ -6,27 +6,27 @@
 */
 int main(void)
 {
-	long int i, j, n, p;
+long int n;
+long int i, j;
 
-	n = 612852475143 / 2;
-	for (i = 2; i <= n; i++)
-	{
-	if (n % i == 0)
-	{
-			p = 1;
-			for (j = 2; j <= i / 2; j++)
-			{
-				if (i % j == 0)
-				{
-					p = 0;
-					break;
-				}
-			}
-			if (p == 1)
-			{
-				printf("\n %d is a Prime Factor ", i);
-			}
-		}
+t = 612852475143 / 2;
+for (i = n; i > 2; --i)
+{
+if (n % i == 0)
+{
+for (j = 2; j <= i / 2; ++j)
+{
+if (i % j == 0)
+{
+break;
 }
-	return (0);
+}
+if (j == i)
+{
+printf("%ld\n", i);
+return (0);
+}
+}
+}
+return (1);
 }
