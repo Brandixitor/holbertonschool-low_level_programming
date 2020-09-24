@@ -16,7 +16,7 @@ j = -n;
 }
 else
 {
-j = n;
+x2 = n;
 }
 i = j / 10;
 while (i != 0)
