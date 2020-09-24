@@ -6,27 +6,22 @@
 */
 int main(void)
 {
-long int n;
-long int i, j;
+long int n = 612852475143, i = 2, k;
 
-t = 612852475143 / 2;
-for (i = n; i > 2; --i)
+while (n != 0)
 {
-if (n % i == 0)
+if (n % i != 0)
+i += 1;
+else
 {
-for (j = 2; j <= i / 2; ++j)
+k = n;
+n /= i;
+if (n == 1)
 {
-if (i % j == 0)
-{
+printf("%ld\n", k);
 break;
 }
 }
-if (j == i)
-{
-printf("%ld\n", i);
+}
 return (0);
-}
-}
-}
-return (1);
 }
