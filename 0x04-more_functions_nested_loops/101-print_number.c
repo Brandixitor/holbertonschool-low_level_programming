@@ -26,7 +26,7 @@ nn *= 10;
 }
 while (nn != 1)
 {
-_putchar((j / nn) + '0');
+_putchar((j / nn) +'0');
 j %= nn;
 nn /= 10;
 }
