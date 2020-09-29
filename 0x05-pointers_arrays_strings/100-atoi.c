@@ -1,29 +1,28 @@
 #include "holberton.h"
 /**
-* incase - Breaks the code into parts.
+* _atoi - Transforms a string to an integer.
 * @s: the string.
-* @num: Current number.
 * Return: Integer.
 */
 int _atoi(char *s)
 {
-	int j, firstNumber = 1, negatif = 1;
-	unsigned int num = 0;
+	int i, fn = 1, ne = 1;
+	unsigned int n = 0;
 
-	j = 0;
-	while (s[j] && firstNumber)
+	i = 0;
+	while (s[i] && fn)
 	{
-		if (s[j] == '-' && !num)
-			negatif *= -1;
-		if (s[j] >= '0' && s[j] <= '9' && firstNumber)
+		if (s[i] == '-' && !n)
+			ne *= -1;
+		if (s[i] >= '0' && s[i] <= '9' && fn)
 		{
-			num *= 10;
-			num += s[j] - '0';
+			n *= 10;
+			n += s[i] - '0';
 		}
-		else if (num > 0)
-			firstNumber = 0;
-		j++;
+		else if (n > 0)
+			fn = 0;
+		i++;
 	};
-	num *= negatif;
-	return (num);
+	n *= ne;
+	return (n);
 }
