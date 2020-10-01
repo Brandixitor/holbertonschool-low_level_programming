@@ -1,0 +1,15 @@
+#include "holberton.h"
+/**
+* *_strcat - function that concatenates two strings.
+* @dest: destination.
+* @src: source.
+* Return: a concatenated string.
+*/
+
+char *_strcat(char *dest, char *src)
+{
+char dest[] = "Hello ";
+char src[] = "World!";
+_putchar("Concatenated String: %s\n", strcat(dest, src));
+return (0);
+}
