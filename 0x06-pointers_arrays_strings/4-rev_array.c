@@ -12,7 +12,7 @@ int i, aux;
 
 aux = 0;
 i = 0;
-	for (i = 0; i < n; i++);
+	for (i = 0; i < n / 2 ; i++)
 	{
 	aux = a[i];
 	a[i] = a[n - i - 1];
