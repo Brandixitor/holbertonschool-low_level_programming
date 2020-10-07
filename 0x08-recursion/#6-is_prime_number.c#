@@ -8,11 +8,21 @@
 
 int st(int i, int j)
 {
-	if (i % j == 0)
+if (j < 0)
+	{
 	return (0);
-	if (j > (i / 2))
-	return (1);
-return (st(i, ++j));
+	}
+	else
+	if (i >= j)
+	else
+	if (j % i != 0 && i != j)
+	{
+	return (st(i + 1, j));
+	}
+	else
+	{
+	return (0);
+	}
 }
 
 
@@ -26,11 +36,13 @@ return (st(i, ++j));
 
 int is_prime_number(int n)
 {
-	if (n <= 0)
+	if (n == 1)
+	{
 	return (0);
-	if (n % 2 == 0)
-	return (0);
-	if (n == 0)
-	return (0);
-return (st(n, 3));
+	}
+		if (n < 0)
+		{
+		return (0);
+		}
+return (st(n, n - 1));
 }
