@@ -52,6 +52,6 @@ int pldrm(char *s, int len, int i)
 int is_palindrome(char *s)
 {
 	int len = _strlen_recursion(s);
-	
+
 	return (pldrm(s, len - 1, 0));
 }
