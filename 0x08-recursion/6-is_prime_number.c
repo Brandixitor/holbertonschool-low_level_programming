@@ -26,11 +26,5 @@ return (st(i, ++j));
 
 int is_prime_number(int n)
 {
-	if (n <= 0)
-	return (0);
-	if (n % 2 == 0)
-	return (0);
-	if (n == 0)
-	return (0);
-return (st(n, 3));
+return (st(2, n));
 }
