@@ -9,52 +9,26 @@
 */
 int main(int argc, char *argv[])
 {
-int cent, coin;
+int i, j, k, l = 0;
+int cent[] = {25, 10, 5, 2, 1};
 
-coin = 0;
 	if (argc != 2)
 	{
 	printf("Error\n");
 	return (1);
 	}
-cent = atoi(argv[1]);
-			if (cent <= 0)
-			{
-			printf("0\n");
-			return (1);
-			}
-	while (cent > 0)
+k = atoi(argv[1]);
+		if (k < 1)
+		printf("0\n");
+	else
 	{
-		if (cent >= 25)
+		for (i = 0; i < 5 && k; i++)
 		{
-		coin++;
-		cent -= 25;
+		j = k / cent[i];
+		l += j;
+		k -= j * cent[i];
 		}
-	else if
-	(cent >= 10)
-		{
-		coin++;
-		cent -= 10;
-		}
-	else if
-		(cent >= 5)
-		{
-		coin++;
-		cent -= 5;
-		}
-	else if
-		(cent >= 2)
-		{
-		coin++;
-		cent -= 2;
-		}
-	else if
-		(cent >= 1)
-		{
-		coin++;
-		cent -= 1;
-		}
+	printf("%d\n", l);
 	}
-printf("%d\n", coin);
 return (0);
 }
