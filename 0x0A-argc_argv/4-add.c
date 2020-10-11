@@ -26,7 +26,7 @@ k = 0;
 			}
 		j++;
 		}
-	r += atoi(argv[i]);
+	k += atoi(argv[i]);
 	i++;
 	}
 printf("%d\n", k);
