@@ -3,14 +3,14 @@
 /**
 * malloc_checked - function that allocates memory using malloc.
 * @b: integer.
-* Return: ch.
+* Return: p.
 */
 void *malloc_checked(unsigned int b)
 {
-void *ch;
+void *p;
 
 	ch = malloc(b);
-	if (ch == NULL)
+	if (p == NULL)
 	exit(98);
-return (ch);
+return (p);
 }
