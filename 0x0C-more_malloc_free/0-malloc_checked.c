@@ -2,14 +2,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-* malloc_checked - function that allocates memory using malloc.
-* @b: integer.
-* Return: p.
+*malloc_checked - function that allocates memory using malloc.
+*@b: var.
+*Return: p.
 */
 void *malloc_checked(unsigned int b)
 {
 void *p;
-p = malloc(b);
+p  = malloc(b);
 if (p == NULL)
 exit(98);
 return (p);
