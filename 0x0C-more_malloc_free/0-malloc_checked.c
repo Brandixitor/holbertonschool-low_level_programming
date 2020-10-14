@@ -1,10 +1,10 @@
 #include "holberton.h"
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 /**
-*malloc_checked - function that allocates memory using malloc.
-*@b: var.
-*Return: p.
+* malloc_checked - mallocs memory asked, exits with code 98 on failure
+* @b: var
+* Return: 0
 */
 void *malloc_checked(unsigned int b)
 {
