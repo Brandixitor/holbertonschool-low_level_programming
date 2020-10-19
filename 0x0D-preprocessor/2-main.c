@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include <stdio.h>
 /**
 * main - function that prints the name of it's executable file.
 * @void: void.
@@ -7,6 +7,6 @@
 
 int main(void)
 {
-	_putchar("%s\n", __FILE__);
+	printf("%s\n", __FILE__);
 	return (0);
 }
