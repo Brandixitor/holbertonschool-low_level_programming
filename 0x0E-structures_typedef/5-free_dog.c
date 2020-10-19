@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "dog.h"
 #include <stdlib.h>
 /**
 * free_dog - function that frees a dog.
