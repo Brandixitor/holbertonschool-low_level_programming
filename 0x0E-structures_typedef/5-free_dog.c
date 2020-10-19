@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdlib.h>
 /**
 * free_dog - function that frees a dog.
 * @d: pointer.
