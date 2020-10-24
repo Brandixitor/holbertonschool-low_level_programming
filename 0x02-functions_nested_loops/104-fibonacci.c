@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
-* What a hard task...
-* Took me 3 hours already
+*display - main function
+*@a2: integer
+*@b2: integer
+*@c2: integer
+*@i: ...
 * Screw Fibonacci
 */
 void display(int a2, int b2, int c2,int i)
