@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdio.h>
+void my_function(void) __attribute__ ((constructor));
 /**
 * print_first - function that prints a message before the main fn  execution.
 */
