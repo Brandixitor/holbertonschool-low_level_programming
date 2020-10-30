@@ -1,25 +1,22 @@
 #include "lists.h"
 /**
-* size_t - function that prints all elements of a list_t list.
-* @list_t: linked list.
+* print_list - function that prints all elements of a list_t list.
+* @h: linked list.
 * Return: it depends on list_t.
 */
+
 size_t print_list(const list_t *h)
 {
-const list_t *p;
-char *str;
-unsigned int sum = 0;
+int  i = 0;
 
-p = NULL;
-p = h;
-	while (p)
+	while (h != NULL)
 	{
-	str = p->str;
-	if (str == NULL)
-	str = "(nil)";
-	printf("[%u] %s\n", p->len, str);
-	sum++;
-	p = p->next;
+		if ((*h).str == NULL)
+		printf("[0] (nil)\n");
+			else
+			printf("[%d] %s\n", (*h).len, (*h).str);
+		h = (*h).next;
+		i++;
 	}
-return (sum);
+	return (i);
 }
