@@ -1,4 +1,4 @@
-#include "lists.h"
+#include <stdio.h>
 /**
 * print_first - function that prints a message before the main fn  execution.
 */
