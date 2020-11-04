@@ -18,7 +18,7 @@ listint_t *prev, *next;
 			{
 			next = (*head)->next;
 			(*head)->next = prev;
-			bprev = *head;
+			prev = *head;
 			*head = next;
 			}
 	*head = prev;
