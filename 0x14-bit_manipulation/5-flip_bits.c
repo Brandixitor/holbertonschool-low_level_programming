@@ -12,7 +12,7 @@ unsigned long int j;
 int i = 0;
 
 	j = n ^ m;
-		while (t >= 1)
+		while (j >= 1)
 		{
 		if ((j & 1) == 1)
 		i++;
