@@ -3,7 +3,7 @@
 * read_textfile - function that reads a text file and prints it to POSIX.
 * @filename: file path to open.
 * @letters: number of letters to read and print to standard output.
-* return: either 0 or the number of characters read from the file.
+* Return: 0 if it fails or the number of characters read and printed.
 */
 
 ssize_t read_textfile(const char *filename, size_t letters)
