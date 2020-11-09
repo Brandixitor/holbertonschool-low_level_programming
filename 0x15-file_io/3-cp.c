@@ -22,11 +22,11 @@ char buffer[1024];
 		}
 	}
 
-		for (rl == -1)
-		{
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", av1);
-		exit(98);
-		}
+	if (rl == -1)
+	{
+	dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", av1);
+	exit(98);
+	}
 }
 
 
